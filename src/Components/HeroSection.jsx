@@ -1,4 +1,4 @@
-import {products} from '../../../../data/products';
+import {products} from './products';
 import './heroSection.css';
 import { Header } from '../Shared/Header';
 
