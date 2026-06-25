@@ -1,0 +1,109 @@
+p {
+    margin: 0;
+    font-family: Arial;
+}
+.orders-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.your-order {
+    margin-left: -600px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+.order-details {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-color: rgb(222, 218, 218);
+    border-width: 1px;
+    border-style: solid;
+    height: 400px;
+    width: 720px;
+    
+}
+.first-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom-color: rgb(222, 218, 218);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 70px;
+
+}
+.order-placed {
+    margin-right: 60px;
+    margin-left: 20px;
+}
+.order_placed {
+    font-weight: bold;
+    font-size: 17px;
+}
+.total-section {
+    margin-right: 150px;
+}
+
+/* second container */
+.first-product {
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.imageone {
+    width: 100px;
+    border-radius: 8px;
+}
+.middle_section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+}
+.left-section {
+    margin-right: 35px;
+}
+.productName {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.arrivaldate {
+    font-size: 15px;
+    font-family: Arial;
+    margin-bottom: 6px;
+}
+.add_to_cart_orderPage {
+    background-color: rgb(25, 135, 84);
+    color: white;
+    width: 140px;
+    height: 34px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(189, 187, 187);
+    font-family: Arial;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.track_package_button {
+     background-color:rgb(255, 255, 255);
+     width: 220px;
+     height: 35px;
+     font-size: 14px;
+     font-family: Arial;
+     cursor: pointer;
+     border-radius: 5px;
+     border-color: rgb(214, 208, 208);
+     border-style: solid;
+     border-width: 1px;
+
+}
