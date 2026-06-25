@@ -1,6 +1,6 @@
-import SupersimpledevLogo from '../../../../icons/logo-white.png';
-import Search from '../../../../icons/search-icon.png';
-import Cart from '../../../../icons/cart-icon.png';
+import SupersimpledevLogo from '../assets/icons/logo-white.png';
+import Search from '../assets/icons/search-icon.png';
+import Cart from '../assets/icons/cart-icon.png';
 import './header.css';
 import {Link} from 'react-router';
 
